@@ -1,0 +1,65 @@
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+ .navbar {
+   background-color:black;
+   font-color:white;
+ }
+
+ .alert {
+   text-align:center;
+ }
+
+ .page-header {
+   text-align:center;
+ }
+
+ .jumbotron {
+   text-align:center;
+ }
+
+ .panel {
+   text-align:center;
+ }
+
+ table {
+   border: 5px solid black;
+ }
+
+td {
+  text-align:center
+}
+
+.alert{
+  -webkit-animation: color-change 1s infinite;
+  -moz-animation: color-change 1s infinite;
+  -o-animation: color-change 1s infinite;
+  -ms-animation: color-change 1s infinite;
+  animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+}
+@-moz-keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+}
+@-ms-keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+}
+@-o-keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+}
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+}
